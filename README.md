@@ -10,7 +10,7 @@ Grade 11 & 12 physics teaches us about projectiles and how the maximum
 height of a projectile is dependent on the initial speed of the object. We 
 can use the basic kinematic equation `yf = yi + vi * t + 0.5 * a * t^2` to
 plot y vs time in a graph. This is however an ideal scenario that only
-applies to a system without aerodynamic drag and initial speed being the 
+applies to a system without aerodynamic drag and with initial speed being the 
 factor countering gravity's pull for a short duration of time. 
 
 ### Kinematic Projectiles with Air Resistance
