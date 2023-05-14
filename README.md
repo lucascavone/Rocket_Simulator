@@ -25,9 +25,9 @@ these two projectiles without the rocket motion part of the program.
 
 ### Rocket Motion
 While projectiles start with a given initial speed and slow down as they 
-gain altitude in a parabolic arc, rockets gain speed exponentially as almost
-the entirety of the rocket's mass is propellant which is lost through the
-engine which expels the fuel to generate thrust. During liftoff, the rocket
+gain altitude in a parabolic arc, rockets gain altitude exponentially as almost
+the entirety of the rocket's mass is propellant. This propellant mass is expelled
+through the engine to generate thrust. During liftoff, the rocket
 gains altitude in an exponential arc until engine shutoff (when the rocket
 runs out of fuel).
 
