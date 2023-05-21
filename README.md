@@ -73,8 +73,7 @@ This program uses several python libraries that should be installed.
 I give credit to my Grade 12 Physics teacher who taught us how to use 
 calculus to derive the equations for non-constant forces and rocket 
 motion. The derivation for the rocket motion equations is included in this
-repository (if the file isn't there, I haven't found the time to cleanly 
-write out the formulas).
+repository.
 
 I give credit to the following websites that helped me understand the 
 equations for air resistance and rocket motion.
