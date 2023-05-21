@@ -10,7 +10,7 @@ Grade 11 & 12 physics teaches us about projectiles and how the maximum
 height of a projectile is dependent on the initial speed of the object. We 
 can use the basic kinematic equation `yf = yi + vi * t + 0.5 * a * t^2` to
 plot y vs time in a graph. This is however an ideal scenario that only
-applies to a system without aerodynamic drag and initial speed being the 
+applies to a system without aerodynamic drag and with initial speed being the 
 factor countering gravity's pull for a short duration of time. 
 
 ### Kinematic Projectiles with Air Resistance
@@ -25,9 +25,9 @@ these two projectiles without the rocket motion part of the program.
 
 ### Rocket Motion
 While projectiles start with a given initial speed and slow down as they 
-gain altitude in a parabolic arc, rockets gain speed exponentially as almost
-the entirety of the rocket's mass is propellant which is lost through the
-engine which expels the fuel to generate thrust. During liftoff, the rocket
+gain altitude in a parabolic arc, rockets gain altitude exponentially as almost
+the entirety of the rocket's mass is propellant. This propellant mass is expelled
+through the engine to generate thrust. During liftoff, the rocket
 gains altitude in an exponential arc until engine shutoff (when the rocket
 runs out of fuel).
 
