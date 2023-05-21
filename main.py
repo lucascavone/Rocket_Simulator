@@ -74,7 +74,10 @@ def y(mi, a, u, alpha, t, tlift):
     alpha_u = alpha * u
     m = mi - alpha * t
     mlift = mi - alpha * tlift
-    yf = ((u ** 2 / a) * (((m * a) / alpha_u) * np.log((m * a) / alpha_u) - (m * a) / alpha_u) - 0.5 * a * t ** 2 + (mi * a * t) / alpha - u * t) - ((u ** 2 / a) * (((mlift * a) / alpha_u) * np.log((mlift * a) / alpha_u) - (mlift * a) / alpha_u) - 0.5 * a * tlift ** 2 + (mi * a * tlift) / alpha - u * tlift)
+    yf = ((u ** 2 / a) * (((m * a) / alpha_u) * np.log((m * a) / alpha_u) - (m * a) / alpha_u) -
+        0.5 * a * t ** 2 + (mi * a * t) / alpha - u * t) - ((u ** 2 / a) * (((mlift * a) / alpha_u) *
+        np.log((mlift * a) / alpha_u) - (mlift * a) / alpha_u) - 0.5 * a * tlift ** 2 +
+        (mi * a * tlift) / alpha - u * tlift)
     yf = np.where(yf < 0, 0, yf)
     return yf
 
